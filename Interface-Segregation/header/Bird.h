@@ -1,8 +1,8 @@
 #include "IFlyable.h"
 
-class Bird: public IFlyable {
+class Bird final: public IFlyable {
     public:
         Bird();
         ~Bird();
-        void fly();
+        void fly() override;
 };

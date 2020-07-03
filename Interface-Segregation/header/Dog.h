@@ -1,8 +1,8 @@
 #include "IBarkable.h"
 
-class Dog: public IBarkable {
+class Dog final: public IBarkable {
     public:
         Dog();
         ~Dog();
-        void bark();
+        void bark() override;
 };
