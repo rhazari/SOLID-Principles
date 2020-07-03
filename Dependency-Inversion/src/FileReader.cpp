@@ -10,6 +10,6 @@ FileReader::~FileReader() {
 }
 
 char* FileReader::read() {
-    std::cout<<"Data read from the database\n";
+    std::cout<<"Data read from the File System\n";
     return nullptr;
 }
