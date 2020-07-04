@@ -2,6 +2,7 @@
 #include "Square.h"
 #include "Rectangle.h"
 #include "Circle.h"
+#include <iostream>
 
 class Graphics {
     public:
@@ -10,6 +11,10 @@ class Graphics {
 
         // Whenever we add a new Shape, we don't need to modify this function
         void drawShape(Shape* shape) {
+            if(!shape){
+                std::cout<<"Its a null pointer\n";
+                return;
+            }
             shape->draw();
         }
 };

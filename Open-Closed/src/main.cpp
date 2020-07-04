@@ -9,15 +9,15 @@
 */
 
 int main() {
-    auto graphics = std::unique_ptr<Graphics>();
+    auto graphics = std::make_unique<Graphics>();
 
-    auto square = std::unique_ptr<Square>();
-    auto rectangle = std::unique_ptr<Rectangle>();
-    auto circle = std::unique_ptr<Circle>();
-
-    std::cout<<"I am here\n";
+    auto square = std::make_unique<Square>();
+    auto rectangle = std::make_unique<Rectangle>();
+    auto circle = std::make_unique<Circle>();
 
     graphics->drawShape(square.get());
+
     graphics->drawShape(rectangle.get());
+
     graphics->drawShape(circle.get());
 }
