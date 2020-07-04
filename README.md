@@ -9,3 +9,5 @@ https://www.youtube.com/playlist?list=PLN9I8wG5ance-q4crq_GBEzxgolm-sjVB
 - **[Liskov Substitution](https://github.com/rhazari/SOLID-Principles/tree/master/Liskov-Substitution)**
 
 - **[Open Closed](https://github.com/rhazari/SOLID-Principles/tree/master/Open-Closed)**
+
+- **[Single Responsibility](https://github.com/rhazari/SOLID-Principles/tree/master/Single-Responsibility)**
