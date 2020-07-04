@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5 FATAL_ERROR)
 
-project(Open-Closed)
+project(Single-Responsibility)
 
 set(CMAKE_CXX_STANDARD 14)
 
@@ -26,4 +26,4 @@ endif()
 include_directories(header)
 file(GLOB SOURCES "src/*.cpp")
 
-add_executable(OCP ${SOURCES})
+add_executable(SRP ${SOURCES})

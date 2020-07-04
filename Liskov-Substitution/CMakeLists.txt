@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5 FATAL_ERROR)
 
-project(Dependency-Inversion)
+project(Liskov-Substitution)
 
 set(CMAKE_CXX_STANDARD 14)
 
